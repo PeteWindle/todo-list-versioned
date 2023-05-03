@@ -1,0 +1,8 @@
+.settings
+documentation
+tmp
+.classpath
+.project
+*.iml
+*.ipr
+*.iws
