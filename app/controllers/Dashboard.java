@@ -22,6 +22,7 @@ public class Dashboard extends Controller
     Logger.info("Addint Todo" + title);
     redirect("/dashboard");
   }
+
   public static void deleteTodo(Long id)
   {
     Todo todo = Todo.findById(id);
